@@ -1,0 +1,29 @@
+.shopLayout{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+@media (max-width:1200px){
+    .shopLayout{
+        margin: 0;
+    }
+}
+.search {
+    padding: 0 20px;
+}
+
+.search input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    text-transform: capitalize;
+}
+.search input:focus{
+    outline: 1px solid #009E00;
+}
+.extra_layout.extraTrick {
+    position: absolute;
+    transform: rotate(90deg);
+    right: -16px;
+    padding: 0;
+}
